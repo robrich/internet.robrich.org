@@ -1,0 +1,89 @@
+{
+    "dir": "ltr",
+    "lang": "en-US",
+    "name": "Am I Online?",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://internet.robrich.org/",
+    "short_name": "Online?",
+    "theme_color": "transparent",
+    "description": "Check browser and wifi online status",
+    "orientation": "any",
+    "background_color": "#ffffff",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/favicon.png",
+            "sizes": "100x100"
+        },
+        {
+            "src": "/icon/32x32.png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/icon/48x48.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/icon/64x64.png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/icon/72x72.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/icon/76x76.png",
+            "sizes": "76x76"
+        },
+        {
+            "src": "/icon/90x90.png",
+            "sizes": "90x90"
+        },
+        {
+            "src": "/icon/96x96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/icon/120x120.png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "/icon/128x128.png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/icon/144x144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/icon/152x152.png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/icon/180x180.png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "/icon/192x192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icon/256x256.png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/icon/512x512.png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/icon/1024x1024.png",
+            "sizes": "1024x1024"
+        }
+    ]
+}

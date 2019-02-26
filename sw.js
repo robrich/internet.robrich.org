@@ -5,10 +5,9 @@ var precacheFiles = [
   '/',
   '/manifest.json',
   '/js/app.js',
+  '/css/site.css',
   '/favicon.ico',
-  '/favicon.png',
-  '/img/browser.svg',
-  '/img/wifi.svg'
+  '/favicon.png'
 ];
 
 //Install stage sets up the cache-array to configure pre-cache content
@@ -33,9 +32,11 @@ self.addEventListener('activate', function(/*event*/) {
 
 self.addEventListener('fetch', function(event) {
   const request = event.request;
-  if (request.url && request.url.indexOf('/check') > -1) {
-    console.log('[sw] ignoring: '+ request.url);
-    return fromServer(request); // don't cache
+  if (request.url) {
+    if (request.url.indexOf('/check') > -1 || request.url.indexOf('icanhazdadjoke') > -1) {
+      console.log('[sw] ignoring: '+ request.url);
+      return fromServer(request); // don't cache
+    }
   }
   //console.log('[sw] starting: '+ event.request.url);
   event.respondWith(fromCache(request).catch(fromServer(request))); // serve local copy, fall-back to server

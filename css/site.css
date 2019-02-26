@@ -14,13 +14,13 @@ html, body, #page {
     padding: 0;
     margin: 0;
   }
+  #joke {
+    font-size: 0.5em;
+    padding: 0.5em;
+  }
   #checkBtn {
     font-size: 10vw;
     padding: 0.5em;
-  }
-  #checkGroup, #navigatorGroup {
-    padding: 2vw 0;
-    margin: 3vw 0;
   }
   .img {
     width: 12vw;

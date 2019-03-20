@@ -20,12 +20,13 @@
       e.preventDefault();
     }
     const url = '/check.json';
-    const msg = await getOnlineStatus(url);
+    let msg = await getOnlineStatus(url);
     if (msg && msg.status === 'online') {
       const joke = await getOnlineStatus('https://icanhazdadjoke.com/slack');
       if (joke && joke.message && joke.message.attachments && joke.message.attachments[0]) {
-        msg.joke = joke.message.attachments[0].text;
+        joke.joke = joke.message.attachments[0].text;
       }
+      msg = joke;
     }
     setOnlineStatus(msg);
   }

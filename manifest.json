@@ -22,67 +22,67 @@
             "sizes": "100x100"
         },
         {
-            "src": "/icon/32x32.png",
+            "src": "/icon/32-32.png",
             "sizes": "32x32"
         },
         {
-            "src": "/icon/48x48.png",
+            "src": "/icon/48-48.png",
             "sizes": "48x48"
         },
         {
-            "src": "/icon/64x64.png",
+            "src": "/icon/64-64.png",
             "sizes": "64x64"
         },
         {
-            "src": "/icon/72x72.png",
+            "src": "/icon/72-72.png",
             "sizes": "72x72"
         },
         {
-            "src": "/icon/76x76.png",
+            "src": "/icon/76-76.png",
             "sizes": "76x76"
         },
         {
-            "src": "/icon/90x90.png",
+            "src": "/icon/90-90.png",
             "sizes": "90x90"
         },
         {
-            "src": "/icon/96x96.png",
+            "src": "/icon/96-96.png",
             "sizes": "96x96"
         },
         {
-            "src": "/icon/120x120.png",
+            "src": "/icon/120-120.png",
             "sizes": "120x120"
         },
         {
-            "src": "/icon/128x128.png",
+            "src": "/icon/128-128.png",
             "sizes": "128x128"
         },
         {
-            "src": "/icon/144x144.png",
+            "src": "/icon/144-144.png",
             "sizes": "144x144"
         },
         {
-            "src": "/icon/152x152.png",
+            "src": "/icon/152-152.png",
             "sizes": "152x152"
         },
         {
-            "src": "/icon/180x180.png",
+            "src": "/icon/180-180.png",
             "sizes": "180x180"
         },
         {
-            "src": "/icon/192x192.png",
+            "src": "/icon/192-192.png",
             "sizes": "192x192"
         },
         {
-            "src": "/icon/256x256.png",
+            "src": "/icon/256-256.png",
             "sizes": "256x256"
         },
         {
-            "src": "/icon/512x512.png",
+            "src": "/icon/512-512.png",
             "sizes": "512x512"
         },
         {
-            "src": "/icon/1024x1024.png",
+            "src": "/icon/1024-1024.png",
             "sizes": "1024x1024"
         }
     ]

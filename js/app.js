@@ -84,8 +84,8 @@
       /*headers: new Headers({
         'Content-Type': 'applicaton/json',
         'Accept': 'applicaton/json'
-      }),*/
-      mode: 'no-cors',
+      }),
+      mode: 'no-cors',*/
       cache: 'no-cache',
       signal
     });
